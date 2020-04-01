@@ -31,11 +31,14 @@ function App() {
     <header className="App-header">
     <h1>A taste of MQTT in React</h1>
     <p>The message is: {mesg}</p>
-    <p>
-		<a href="https://www.preciouschicken.com/blog/posts/a-taste-of-mqtt-in-react/">preciouschicken.com/blog/posts/a-taste-of-mqtt-in-react/</a>
+		<p>
+		<a href="https://www.preciouschicken.com/blog/posts/a-taste-of-mqtt-in-react/"    
+		style={{
+			color: 'white'
+		}}>preciouschicken.com/blog/posts/a-taste-of-mqtt-in-react/</a>
 		</p>
-    </header>
-    </div>
+		</header>
+		</div>
   );
 }
 
